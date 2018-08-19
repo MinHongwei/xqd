@@ -1,0 +1,25 @@
+@import '~antd/lib/style/themes/default.less';
+@import '../../../utils/utils.less';
+/**
+ * @author 闵宏维
+ * ps.可以自行新建并重写，但是拒绝做任何更改，欢迎反应bug  qq：2959000390，
+ */
+.miniChart {
+  position: relative;
+  width: 100%;
+  .chartContent {
+    position: absolute;
+    bottom: -28px;
+    width: 100%;
+    > div {
+      margin: 0 -5px;
+      overflow: hidden;
+    }
+  }
+  .chartLoading {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -7px;
+  }
+}
